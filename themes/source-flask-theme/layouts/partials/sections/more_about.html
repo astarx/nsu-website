@@ -1,0 +1,153 @@
+{{ if isset .Site.Params "morea_about" }}
+{{ if .Site.Params.morea_about.enable }}
+
+<section class="bar bg-img" id="more-about">
+    <div class="more_about container">
+
+        <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
+
+        <ul class="nav nav-pills">
+            <li class="active">
+                <a class="cf-btn-primary buttons-gap" id="member-btn">{{.Site.Params.morea_about.member_button }}</a>
+            </li>
+            <li>
+                <a class="cf-btn-primary" id="sponsor-btn">{{ .Site.Params.morea_about.sponsor_button}}</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="member">
+                <div class="row tabbable">
+                    <div class="col-xl-5 reflow-gap">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <div class="row sub-buttons">
+                                    <a class="cf-btn-secondary col" data-toggle="pill" href="#itemM1">
+                                        <img class="cf-btn-icon col-md-4"
+                                             src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.member.thumbnail1 }}">
+                                        <div class="cf-btn-text col-md-8'"> {{ .Site.Params.morea_about.member.item1Top}}
+                                            <br> {{ .Site.Params.morea_about.member.item1Bottom }}
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row sub-buttons">
+                                    <a class="cf-btn-secondary col" data-toggle="pill" href="#itemM2">
+                                        <img class="cf-btn-icon col-md-4"
+                                             src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.member.thumbnail2 }}">
+                                        <div class="cf-btn-text col-md-8'"> {{ .Site.Params.morea_about.member.item2Top}}
+                                            <br> {{ .Site.Params.morea_about.member.item2Bottom }}
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row sub-buttons">
+                                    <a class="cf-btn-secondary col" data-toggle="pill" href="#itemM3">
+                                        <img class="cf-btn-icon col-md-4"
+                                             src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.member.thumbnail3 }}">
+                                        <div class="cf-btn-text col-md-8'"> {{ .Site.Params.morea_about.member.item3Top}}
+                                            <br> {{ .Site.Params.morea_about.member.item3Bottom }}
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="tab-content">
+                            <div class="tab-pane active in" id="itemM1">
+                                <img class="flavor-img"
+                                     src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.member.img1 }}">
+                                <h2 class="section-title">{{ .Site.Params.morea_about.member.item1Top }} {{ .Site.Params.morea_about.member.item1Bottom}} </h2>
+                                <div class="sub-title">{{ .Site.Params.morea_about.member.text1 }}</div>
+                            </div>
+
+                            <div class="tab-pane fade in" id="itemM2">
+                                <img class="flavor-img"
+                                     src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.member.img1 }}">
+                                <h2 class="section-title">{{ .Site.Params.morea_about.member.item2Top }} {{ .Site.Params.morea_about.member.item2Bottom}} </h2>
+                                <div class="sub-title">{{ .Site.Params.morea_about.member.text2 }}</div>
+                            </div>
+
+                            <div class="tab-pane fade in" id="itemM3">
+                                <img class="flavor-img"
+                                     src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.member.img1 }}">
+                                <h2 class="section-title">{{ .Site.Params.morea_about.member.item3Top }} {{ .Site.Params.morea_about.member.item3Bottom}} </h2>
+                                <div class="sub-title">{{ .Site.Params.morea_about.member.text3 }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sponsor">
+                <div class="row tabbable">
+                    <div class="col-xl-5 reflow-gap">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <div class="row sub-buttons">
+                                    <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                                        <img class="cf-btn-icon col-md-4"
+                                             src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.sponsor.thumbnail1 }}">
+                                        <div class="cf-btn-text col-md-8'"> {{ .Site.Params.morea_about.sponsor.item1Top }} <br> {{ .Site.Params.morea_about.sponsor.item1Bottom }}
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row sub-buttons">
+                                    <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS2">
+                                        <img class="cf-btn-icon col-md-4"
+                                             src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.sponsor.thumbnail2 }}">
+                                        <div class="cf-btn-text col-md-8'"> {{ .Site.Params.morea_about.sponsor.item2Top }} <br> {{ .Site.Params.morea_about.sponsor.item2Bottom }}
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row sub-buttons">
+                                    <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS3">
+                                        <img class="cf-btn-icon col-md-4"
+                                             src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.sponsor.thumbnail3 }}">
+                                        <div class="cf-btn-text col-md-8'"> {{ .Site.Params.morea_about.sponsor.item3Top }} <br> {{ .Site.Params.morea_about.sponsor.item3Bottom }}
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="tab-content">
+
+                            <div class="tab-pane in active" id="itemS1">
+                                <img class="flavor-img"
+                                     src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.sponsor.img1 }}">
+                                <h2 class="section-title">{{ .Site.Params.morea_about.sponsor.item1Top }} {{ .Site.Params.morea_about.sponsor.item1Bottom}} </h2>
+                                <div class="sub-title">{{ .Site.Params.morea_about.sponsor.text1 }}</div>
+                            </div>
+
+                            <div class="tab-pane fade in" id="itemS2">
+                                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.sponsor.img1 }}">
+                                <h2 class="section-title">{{ .Site.Params.morea_about.sponsor.item2Top }} {{ .Site.Params.morea_about.sponsor.item2Bottom}} </h2>
+                                <div class="sub-title">{{ .Site.Params.morea_about.sponsor.text2 }}</div>
+                            </div>
+
+                            <div class="tab-pane fade in" id="itemS3">
+                                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.sponsor.img1 }}">
+                                <h2 class="section-title">{{ .Site.Params.morea_about.sponsor.item3Top }} {{.Site.Params.morea_about.sponsor.item3Bottom}} </h2>
+                                <div class="sub-title">{{ .Site.Params.morea_about.sponsor.text3 }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+{{end}}
+{{end}}

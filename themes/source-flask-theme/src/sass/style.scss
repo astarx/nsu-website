@@ -1,7 +1,7 @@
 //@import "~animate.css";
 @import "~bootstrap/scss/bootstrap.scss";
-
 @import "~bootstrap/scss/bootstrap-grid.scss";
+@import "~animate.css";
 @import "variable";
 
 // Fonts
@@ -21,10 +21,10 @@
 @import "section/call_to_action";
 
 // More About
-@import "section/moreabout";
+@import "section/more_about";
 
 // Platform
 @import "section/platform";
 
 //Events
-@import "section/events"
+@import "section/upcoming_events";

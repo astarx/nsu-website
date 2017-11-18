@@ -1,4 +1,4 @@
-.moreabout {
+.more_about {
   /*may need to be made more responcive*/
   padding-top: 5em;
   padding-bottom: 5em;
@@ -29,12 +29,17 @@
   }
 
   .sub-buttons {
-    padding: 5em 0em 1em 2em;
+    padding: 5em 0 1em 2em;
     margin-right: 0.1em;
   }
 
   .tab-content {
-    margin-top: 2em;
+    margin-top: 2rem;
+
+    &>div{
+      animation-duration: .2s;
+      animation-delay: .2s;
+    }
   }
 
   .cf-btn-primary {

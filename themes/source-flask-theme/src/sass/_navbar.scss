@@ -78,31 +78,29 @@ $nsu-red: #C22246;
   }
 }
 .join-us {
-  &>a {
+  @include font-opensans;
+  font-weight: 400;
+  font-size: 16px;
+  color: $nsu-red;
+  letter-spacing: 1px;
+  padding: 10px 25px 10px 25px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: white;
+  @media (max-width: 842px) {
     @include font-opensans;
     font-weight: 400;
     font-size: 16px;
-    color: $nsu-red;
     letter-spacing: 1px;
     padding: 10px 25px 10px 25px;
+    background-color: transparent;
+    color: white;
     transition: all 0.2s ease-out;
     text-decoration: none;
-    border-radius: 30px;
-    background-color: white;
-    @media (max-width: 842px) {
-      @include font-opensans;
-      font-weight: 400;
-      font-size: 16px;
-      letter-spacing: 1px;
-      padding: 10px 25px 10px 25px;
-      background-color: transparent;
-      color: white;
-      transition: all 0.2s ease-out;
-      text-decoration: none;
-    }
   }
-  a:hover,
-  a:active{
+  &:hover,
+  &:active {
     text-decoration: none;
     color: $nsu-red !important;
   }

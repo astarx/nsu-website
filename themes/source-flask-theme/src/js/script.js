@@ -1,9 +1,47 @@
 import 'tether'
 import 'jquery'
-import 'popper.js'
+// import 'popper.js'
 import 'bootstrap/dist/js/bootstrap'
 
+$.fn.extend({
+  animateCss: function (animationName, callback) {
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    this.addClass('animated ' + animationName).one(animationEnd, () => {
+      $(this).removeClass('animated ' + animationName)
+      if (callback) {
+        callback()
+      }
+    })
+    return this
+  }
+})
+
 $(document).ready(() => {
+  let member = $('#member')
+  let sponsor = $('#sponsor')
+  $('#sponsor-btn').on('click', () => {
+    if (!member.hasClass('hidden')) {
+      member.animateCss('fadeOut', () => {
+        member.css('display', 'none')
+        member.addClass('hidden')
+        sponsor.removeClass('hidden')
+        sponsor.css('display', 'block')
+        sponsor.animateCss('fadeIn')
+      })
+    }
+  })
+  $('#member-btn').on('click', () => {
+    if (!sponsor.hasClass('hidden')) {
+      sponsor.animateCss('fadeOut', () => {
+        sponsor.css('display', 'none')
+        sponsor.addClass('hidden')
+        member.removeClass('hidden')
+        member.css('display', 'block')
+        member.animateCss('fadeIn')
+      })
+    }
+  })
+
   // let timeout = null
   // let target = $('#title-card').offset().top + $('#title-card').height()
   //
