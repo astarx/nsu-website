@@ -16,6 +16,10 @@
     margin-bottom: 4rem;
   }
 
+  .hidden{
+    display: none;
+  }
+
   .flavor-img {
     object-fit: cover;
     border-radius: 30px;
@@ -52,6 +56,10 @@
       border-color: $btn-light;
     }
 
+  }
+
+  .list-btn .cf-btn-secondary:first-child{
+    margin-top: 4rem;
   }
 
 }

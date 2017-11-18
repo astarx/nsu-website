@@ -22,10 +22,8 @@ $(document).ready(() => {
   $('#sponsor-btn').on('click', () => {
     if (!member.hasClass('hidden')) {
       member.animateCss('fadeOut', () => {
-        member.css('display', 'none')
         member.addClass('hidden')
         sponsor.removeClass('hidden')
-        sponsor.css('display', 'block')
         sponsor.animateCss('fadeIn')
       })
     }
@@ -33,10 +31,8 @@ $(document).ready(() => {
   $('#member-btn').on('click', () => {
     if (!sponsor.hasClass('hidden')) {
       sponsor.animateCss('fadeOut', () => {
-        sponsor.css('display', 'none')
         sponsor.addClass('hidden')
         member.removeClass('hidden')
-        member.css('display', 'block')
         member.animateCss('fadeIn')
       })
     }

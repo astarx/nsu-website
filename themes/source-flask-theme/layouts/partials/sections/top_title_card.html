@@ -1,27 +1,11 @@
 {{ if isset .Site.Params "top_title_card" }}
 {{ if .Site.Params.top_title_card.enable }}
-<section id="title-card">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-lg-6 order-md-1 order-2 no-gutters">
-                <div class="container d-flex align-items-center h-100">
-                    <div class="call-to-action-block">
-                        <div class="vote-for">{{ safeHTML .Site.Params.top_title_card.main_title }}</div>
-
-                        <div class="fresh-senator">{{ safeHTML .Site.Params.top_title_card.second_title }}</div>
-
-                        <div class="fresh-senator-subtitle">{{ safeHTML .Site.Params.top_title_card.sub_title }}</div>
-                        <a class="cf-btn-primary title_button" href="{{ .Site.Params.signup_link }}">Sign-Up Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6 order-md-2 order-1 no-gutters">
-                <div class="cover-container">
-                    <img src="{{ .Site.BaseURL }}{{ .Site.Params.top_title_card.img }}">
-                </div>
-            </div>
+<section id="title-card" style="background-image: url('img/hero-image.jpg'); " >
+    <div class="top-info">
+        <div class="container d-flex align-items-center h-100">
+            <h1>Hello world</h1>
         </div>
+
     </div>
 </section>
 {{ end }}
