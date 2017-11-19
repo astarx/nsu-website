@@ -1,4 +1,5 @@
 +++
 title = "About Us"
-page = "about"
+type = "page"
+layout = "about"
 +++
