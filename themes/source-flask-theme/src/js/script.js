@@ -19,16 +19,22 @@ $.fn.extend({
 $(document).ready(() => {
   let member = $('#member')
   let sponsor = $('#sponsor')
-  $('#sponsor-btn').on('click', () => {
+  let sponsorbtn = $('#sponsor-btn')
+  let memberbtn = $('#member-btn')
+  sponsorbtn.on('click', () => {
     if (!member.hasClass('hidden')) {
       member.addClass('hidden')
       sponsor.removeClass('hidden')
+      memberbtn.removeClass('active')
+      sponsorbtn.addClass('active')
     }
   })
-  $('#member-btn').on('click', () => {
+  memberbtn.on('click', () => {
     if (!sponsor.hasClass('hidden')) {
       sponsor.addClass('hidden')
       member.removeClass('hidden')
+      sponsorbtn.removeClass('active')
+      memberbtn.addClass('active')
     }
   })
 

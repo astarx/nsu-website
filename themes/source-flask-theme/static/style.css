@@ -14311,10 +14311,13 @@ section .main-title {
 .more_about .cf-btn-primary {
   background-color: #8e9092;
   border-color: #8e9092;
+  cursor: pointer;
+  color: white !important;
 }
 
 .more_about .cf-btn-primary:hover,
-.more_about .cf-btn-primary:focus {
+.more_about .cf-btn-primary:focus,
+.more_about .cf-btn-primary.active {
   background-color: #607d9d;
   border-color: #607d9d;
 }

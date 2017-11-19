@@ -49,9 +49,12 @@
   .cf-btn-primary {
     background-color: $btn-dark;
     border-color: $btn-dark;
+    cursor: pointer;
+    color: white!important;
 
     &:hover,
-    &:focus {
+    &:focus,
+    &.active {
       background-color: $btn-light;
       border-color: $btn-light;
     }
