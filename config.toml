@@ -60,65 +60,47 @@ paginate = 10
     sub_title = "hosted at Chapman University on April 7, 2018"
     img = "img/top.jpg"
 
-[params.morea_about]
+[params.more_about]
     enable = true
     title = "Why come to us"
     member_button = "AS A MEMBER"
     sponsor_button = "AS A SPONSOR"
 
-[params.morea_about.member]
+[params.more_about.member]
     item1Top = "Cultural"
     item1Bottom = "Immersion"
-    text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
-     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
-     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
-     aliquam sapien, a pulvinar orci."""
+    text1 = """Pretty cool cultural immersion for members."""
     thumbnail1 = "icons/torii.svg"
     img1 = "img/main-placeholder-1.jpg"
 
     item2Top = "Diverse"
     item2Bottom =  "Friends"
-    text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
-     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
-     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
-     aliquam sapien, a pulvinar orci."""
+    text2 =  """Lots of diverse friends for members."""
     thumbnail2 = "icons/geishaninja-01.svg"
     img2 = "img/main-placeholder-1.jpg"
 
     item3Top = "Ramen"
     item3Bottom = ""
-    text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
-     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
-     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
-     aliquam sapien, a pulvinar orci."""
+    text3 = """Yummy ramen at every member meeting."""
     thumbnail3 = "icons/noodles.svg"
     img3 = "img/main-placeholder-1.jpg"
 
-[params.morea_about.sponsor]
+[params.more_about.sponsor]
     item1Top = "Cultural"
     item1Bottom = "Support"
-    text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
-     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
-     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
-     aliquam sapien, a pulvinar orci."""
+    text1 = """Cultural supot for sponsors."""
     thumbnail1 = "icons/torii.svg"
     img1 = "img/main-placeholder-1.jpg"
 
     item2Top = "Diverse"
     item2Bottom =  "Branding"
-    text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
-     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
-     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
-     aliquam sapien, a pulvinar orci."""
+    text2 =  """Get your brand out there if you sponsor us."""
     thumbnail2 = "icons/geishaninja-01.svg"
     img2 = "img/main-placeholder-1.jpg"
 
     item3Top = "Ramune"
     item3Bottom = ""
-    text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
-     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
-     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
-     aliquam sapien, a pulvinar orci."""
+    text3 = """We make yummy ramen for sponsors."""
     thumbnail3 = "icons/noodles.svg"
     img3 = "img/main-placeholder-1.jpg"
 
