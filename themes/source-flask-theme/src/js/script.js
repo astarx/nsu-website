@@ -21,21 +21,58 @@ $(document).ready(() => {
   let sponsor = $('#sponsor')
   $('#sponsor-btn').on('click', () => {
     if (!member.hasClass('hidden')) {
-      member.animateCss('fadeOut', () => {
-        member.addClass('hidden')
-        sponsor.removeClass('hidden')
-        sponsor.animateCss('fadeIn')
-      })
+      member.addClass('hidden')
+      sponsor.removeClass('hidden')
     }
   })
   $('#member-btn').on('click', () => {
     if (!sponsor.hasClass('hidden')) {
-      sponsor.animateCss('fadeOut', () => {
-        sponsor.addClass('hidden')
-        member.removeClass('hidden')
-        member.animateCss('fadeIn')
-      })
+      sponsor.addClass('hidden')
+      member.removeClass('hidden')
     }
+  })
+
+  let m1 = $('#itemM1')
+  let m2 = $('#itemM2')
+  let m3 = $('#itemM3')
+  $('#itemMB1').on('click', () => {
+    m1.addClass('active')
+    m1.removeClass('fade')
+    m2.removeClass('active')
+    m3.removeClass('active')
+  })
+  $('#itemMB2').on('click', () => {
+    m2.addClass('active')
+    m2.removeClass('fade')
+    m1.removeClass('active')
+    m3.removeClass('active')
+  })
+  $('#itemMB3').on('click', () => {
+    m3.addClass('active')
+    m3.removeClass('fade')
+    m2.removeClass('active')
+    m1.removeClass('active')
+  })
+  let s1 = $('#itemS1')
+  let s2 = $('#itemS2')
+  let s3 = $('#itemS3')
+  $('#itemSB1').on('click', () => {
+    s1.addClass('active')
+    s1.removeClass('fade')
+    s2.removeClass('active')
+    s3.removeClass('active')
+  })
+  $('#itemSB2').on('click', () => {
+    s2.addClass('active')
+    s2.removeClass('fade')
+    s1.removeClass('active')
+    s3.removeClass('active')
+  })
+  $('#itemSB3').on('click', () => {
+    s3.addClass('active')
+    s3.removeClass('fade')
+    s2.removeClass('active')
+    s1.removeClass('active')
   })
 
   // let timeout = null

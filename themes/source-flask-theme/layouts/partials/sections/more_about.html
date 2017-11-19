@@ -16,11 +16,11 @@
         </ul>
 
         <div class="tab-content">
-            <div id="member" class="hidden">
+            <div id="member">
                 <div class="row tabbable">
                     <div class="col-xl-5 container list-btn">
                         <div class="row">
-                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#" id="itemMB1">
                                 <img class="cf-btn-icon col-md-4"
                                      src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.thumbnail1 }}">
                                 <div class="cf-btn-text col-md-8'"> {{ .Site.Params.more_about.member.item1Top }} <br> {{ .Site.Params.more_about.member.item1Bottom }}
@@ -28,7 +28,7 @@
                             </a>
                         </div>
                         <div class="row">
-                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#" id="itemMB2">
                                 <img class="cf-btn-icon col-md-4"
                                      src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.thumbnail2 }}">
                                 <div class="cf-btn-text col-md-8'"> {{ .Site.Params.more_about.member.item2Top }} <br> {{ .Site.Params.more_about.member.item2Bottom }}
@@ -36,7 +36,7 @@
                             </a>
                         </div>
                         <div class="row">
-                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#" id="itemMB3">
                                 <img class="cf-btn-icon col-md-4"
                                      src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.thumbnail3 }}">
                                 <div class="cf-btn-text col-md-8'"> {{ .Site.Params.more_about.member.item3Top }} <br> {{ .Site.Params.more_about.member.item3Bottom }}
@@ -70,11 +70,11 @@
                     </div>
                 </div>
             </div>
-            <div id="sponsor">
+            <div id="sponsor" class="hidden">
                 <div class="row tabbable">
                     <div class="col-xl-5 container list-btn">
                         <div class="row">
-                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#" id="itemSB1">
                                 <img class="cf-btn-icon col-md-4"
                                      src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.thumbnail1 }}">
                                 <div class="cf-btn-text col-md-8'"> {{ .Site.Params.more_about.sponsor.item1Top }} <br> {{ .Site.Params.more_about.sponsor.item1Bottom }}
@@ -82,7 +82,7 @@
                             </a>
                         </div>
                         <div class="row">
-                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#" id="itemSB2">
                                 <img class="cf-btn-icon col-md-4"
                                      src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.thumbnail2 }}">
                                 <div class="cf-btn-text col-md-8'"> {{ .Site.Params.more_about.sponsor.item2Top }} <br> {{ .Site.Params.more_about.sponsor.item2Bottom }}
@@ -90,7 +90,7 @@
                             </a>
                         </div>
                         <div class="row">
-                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#" id="itemSB3">
                                 <img class="cf-btn-icon col-md-4"
                                      src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.thumbnail3 }}">
                                 <div class="cf-btn-text col-md-8'"> {{ .Site.Params.more_about.sponsor.item3Top }} <br> {{ .Site.Params.more_about.sponsor.item3Bottom }}
