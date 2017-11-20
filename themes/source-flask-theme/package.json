@@ -31,6 +31,7 @@
     "eslint-plugin-standard": "^2.0.1",
     "extract-text-webpack-plugin": "^2.1.2",
     "jquery": "^3.2.1",
+    "modularscale-sass": "^3.0.3",
     "node-sass": "^4.5.3",
     "resolve-url-loader": "^2.1.0",
     "sass": "^1.0.0-beta.2",
