@@ -7,24 +7,27 @@
 
     <div id="all">
 
-        <header>
+        <header id="header" class="fixed-top nav-hidden">
 
-          {{ partial "nav.html" . }}
+            {{ partial "nav.html" . }}
 
         </header>
 
         {{ if isset .Params "id" }}
-            {{ if eq .Params.id "work_with_us" }} {{else}}
+            {{ if eq .Params.id "work_with_us" }}
+            {{else}}
                 {{ partial "breadcrumbs.html" . }}
             {{end}}
         {{ end }}
 
+        {{ if isset .Params "id" }}
+
+            <div class="content top-container">
+                {{ partial .Params.id . }}
+            </div>
+        {{ else }}
+
         <div id="content">
-            {{ if isset .Params "id" }}
-
-              {{ partial .Params.id . }}
-
-            {{ else }}
 
             <div class="container">
 

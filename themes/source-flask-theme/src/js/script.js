@@ -1,7 +1,12 @@
 import 'tether'
 import 'jquery'
-// import 'popper.js'
 import 'bootstrap/dist/js/bootstrap'
+import 'ekko-lightbox/dist/ekko-lightbox'
+
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+  event.preventDefault()
+  $(this).ekkoLightbox()
+})
 
 $.fn.extend({
   animateCss: function (animationName, callback) {
@@ -16,7 +21,7 @@ $.fn.extend({
   }
 })
 
-$(document).ready(() => {
+$(document).ready(function () {
   let member = $('#member')
   let sponsor = $('#sponsor')
   let sponsorbtn = $('#sponsor-btn')
