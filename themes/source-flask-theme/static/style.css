@@ -14413,6 +14413,43 @@ section .main-title {
   color: #95989a;
 }
 
+#newsletter {
+  color: white;
+  border-color: white;
+  padding: 7rem 0;
+}
+
+#newsletter h2.section-title {
+  color: white;
+}
+
+#newsletter .news-box {
+  background: #da001b;
+  border-radius: 20px;
+}
+
+#newsletter p {
+  font-size: 2rem;
+  padding: .5rem 0;
+}
+
+#newsletter input[type=text] {
+  border-radius: 20px;
+  padding: .6rem 3rem;
+  font-size: 1.8rem;
+  width: 80%;
+  border-style: none;
+}
+
+#newsletter .newsletter-container {
+  margin: 0 5rem;
+}
+
+#newsletter .cf-btn-primary {
+  width: 70%;
+  margin: 2rem 0;
+}
+
 .more_about {
   /*may need to be made more responcive*/
   padding-top: 5em;
