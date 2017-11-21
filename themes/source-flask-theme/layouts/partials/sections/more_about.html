@@ -67,7 +67,7 @@
             </div>
             <!--Tab Content-->
             <div class="col-xl-7">
-                <div class="tab-content">
+                <div class="tab-content" id="member">
                     <div class="tab-pane active in" id="itemM1">
                         <img class="flavor-img"
                              src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.member.img1 }}">
@@ -89,35 +89,24 @@
                         <div class="sub-title">{{ .Site.Params.more_about.member.text3 }}</div>
                     </div>
                 </div>
-            </div>
-                <div id="sponsor" class="hidden">
-                    <div class="row tabbable">
-                        <div class="col-xl-5 container list-btn">
+                <div class="tab-content hidden" id="sponsor">
+                    <div class="tab-pane in active" id="itemS1">
+                        <img class="flavor-img"
+                             src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.more_about.sponsor.item1Top }} {{ .Site.Params.more_about.sponsor.item1Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.more_about.sponsor.text1 }}</div>
+                    </div>
 
-                        </div>
-                        <div class="col-xl-7">
-                            <div class="tab-content">
+                    <div class="tab-pane fade in" id="itemS2">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.more_about.sponsor.item2Top }} {{ .Site.Params.more_about.sponsor.item2Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.more_about.sponsor.text2 }}</div>
+                    </div>
 
-                                <div class="tab-pane in active" id="itemS1">
-                                    <img class="flavor-img"
-                                         src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.img1 }}">
-                                    <h2 class="section-title">{{ .Site.Params.more_about.sponsor.item1Top }} {{ .Site.Params.more_about.sponsor.item1Bottom}} </h2>
-                                    <div class="sub-title">{{ .Site.Params.more_about.sponsor.text1 }}</div>
-                                </div>
-
-                                <div class="tab-pane fade in" id="itemS2">
-                                    <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.img1 }}">
-                                    <h2 class="section-title">{{ .Site.Params.more_about.sponsor.item2Top }} {{ .Site.Params.more_about.sponsor.item2Bottom}} </h2>
-                                    <div class="sub-title">{{ .Site.Params.more_about.sponsor.text2 }}</div>
-                                </div>
-
-                                <div class="tab-pane fade in" id="itemS3">
-                                    <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.img1 }}">
-                                    <h2 class="section-title">{{ .Site.Params.more_about.sponsor.item3Top }} {{.Site.Params.more_about.sponsor.item3Bottom}} </h2>
-                                    <div class="sub-title">{{ .Site.Params.more_about.sponsor.text3 }}</div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="tab-pane fade in" id="itemS3">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.more_about.sponsor.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.more_about.sponsor.item3Top }} {{.Site.Params.more_about.sponsor.item3Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.more_about.sponsor.text3 }}</div>
                     </div>
                 </div>
             </div>
