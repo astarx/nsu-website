@@ -9,7 +9,7 @@ page = "about"
         <div class="row">
             <div class="col-md-12 about-info">
                 <div class="row top-spacer">
-                    <div class="col-md-5">
+                    <div class="col-md-6 text-content">
                         <h1 class="section-title">Mission</h1>
                         <div class="about-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -19,7 +19,7 @@ page = "about"
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                     <img class="flavor-img" src="/img/main-placeholder-1.jpg">
                     </div>
                 </div>
