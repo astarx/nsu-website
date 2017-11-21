@@ -1,0 +1,46 @@
+#call-to-action {
+  @include font-opensans;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .voting-starts {
+    padding-top: 4rem;
+  }
+
+  .nav-link{
+    margin: auto !important;
+  }
+
+  .vote-for {
+    font-size: 5rem;
+    padding-bottom: 4rem;
+    &>span {
+      font-weight: bolder;
+    }
+
+  }
+
+  .fixcolor {
+    color: #fff;
+  }
+
+  .voting-flag {
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    font-weight: 200;
+    padding: 2rem 0;
+  }
+
+  .question, .question p{
+    margin-top: 20px;
+    padding: 2rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+  .sub-title{
+    font-size: 1.5rem;
+    color: $text-light;
+  }
+
+}

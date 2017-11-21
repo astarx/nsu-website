@@ -1,0 +1,66 @@
+.cf-btn-primary {
+  @include font-opensans;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1em 2em 1em 2em;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+
+  &:hover,
+  &:active{
+      @include font-opensans;
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  &.cf-btn-sm{
+    font-size: 2rem;
+    padding: .2rem 3rem;
+  }
+}
+
+.buttons-group {
+  display: inline-block;
+}
+
+.cf-btn-secondary {
+  @include font-opensans;
+  display: inline-block;
+  font-weight: 800;
+  font-size: 3.5em;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  color: $secondary-color;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border: 2px solid transparent;
+  line-height: 1;
+
+  &:hover,
+  &:focus {
+    @include font-opensans;
+    border-color: $secondary-color;
+    text-decoration: none;
+    color: $secondary-color;
+  }
+
+}
+
+.cf-btn-icon {
+  display: inline-block;
+  max-width: 3em;
+  height: 2em;
+}
+
+.cf-btn-text {
+  margin-left: 1em ;
+  display: inline-block;
+  vertical-align: middle;
+}
+

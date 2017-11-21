@@ -1,0 +1,33 @@
+#newsletter{
+  color: white;
+  border-color: white;
+  h2.section-title{
+    color: white;
+  }
+
+  .news-box{
+    background: $nsu-red;
+    border-radius: 20px;
+  }
+
+  p{
+    font-size: 2rem;
+    padding: .5rem 0;
+  }
+  padding: 7rem 0;
+
+  input[type=text]{
+    border-radius: 20px;
+    padding: .6rem 3rem;
+    font-size: 1.8rem;
+    width: 80%;
+    border-style:none;
+  }
+  .newsletter-container{
+    margin: 0 5rem;
+  }
+  .cf-btn-primary{
+    width: 70%;
+    margin: 2rem 0;
+  }
+}

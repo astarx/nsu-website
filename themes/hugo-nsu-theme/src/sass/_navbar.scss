@@ -1,0 +1,111 @@
+$nav-border-color:#e4e4e4;
+
+#header {
+  @include font-opensans;
+  transition: all .5s ease 0s;
+  top: 0;
+  /*
+  &.nav-hidden{
+    top: -200px;
+  }
+  */
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: $nsu-red;
+  background: $nsu-red;
+  .navbar-brand>h1{
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    font-weight: 100;
+    line-height: 4rem;
+    margin: 0;
+    padding-left: 0.5rem;
+    &>span {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: 700;
+      letter-spacing: 0.2rem;
+    }
+     @include media-breakpoint-down(sm) {
+      text-align: center;
+    }
+  }
+
+  a:hover,
+  a:active{
+    text-decoration: none;
+    color: white;
+  }
+
+  /*.navbar>*{
+    @include media-breakpoint-down(md) {
+      margin: 0 auto;
+    }
+  }*/
+
+  .nav-countdown {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: white;
+    >* {
+      display: inline-block;
+    }
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem;
+    }
+    padding-right: 0.5rem;
+  }
+
+
+}
+
+.links {
+  @include font-opensans;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 40px 10px 40px;
+  background-color: transparent;
+  color: white;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  @media (max-width: 842px){
+    padding: 10px 25px 10px 25px;
+  }
+}
+.join-us {
+  @include font-opensans;
+  font-weight: 400;
+  font-size: 16px;
+  color: $nsu-red;
+  letter-spacing: 1px;
+  padding: 10px 25px 10px 25px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: white;
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: $nsu-red !important;
+  }
+  @media (max-width: 842px) {
+    @include font-opensans;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 25px 10px 25px;
+    background-color: transparent;
+    color: white;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+    &:hover,
+    &:active {
+      text-decoration: none;
+      color: white !important;
+    }
+  }
+}
