@@ -3,7 +3,8 @@ title = "About Us"
 page = "about"
 +++
 
-<div class="container yellow-bg">
+<div class="yellow-bg">
+<div class="container ">
     <div class="row">
         <div class="col-md-12">
             <div class="row about_info ">
@@ -12,4 +13,5 @@ page = "about"
             </div>
         </div>
     </div>
+</div>
 </div>
