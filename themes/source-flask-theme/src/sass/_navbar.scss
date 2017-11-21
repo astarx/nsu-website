@@ -35,11 +35,17 @@ $nsu-red: #C22246;
     }
   }
 
-  //.navbar>*{
-  //  @include media-breakpoint-down(md) {
-  //    margin: 0 auto;
-  //  }
-  //}
+  a:hover,
+  a:active{
+    text-decoration: none;
+    color: white;
+  }
+
+  /*.navbar>*{
+    @include media-breakpoint-down(md) {
+      margin: 0 auto;
+    }
+  }*/
 
   .nav-countdown {
     font-size: 2.7rem;
@@ -62,21 +68,42 @@ $nsu-red: #C22246;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 40px 10px 40px;
   background-color: transparent;
   color: white;
   transition: all 0.2s ease-out;
   text-decoration: none;
+  @media (max-width: 842px){
+    padding: 10px 25px 10px 25px;
+  }
 }
 .join-us {
-  @include font-opensans;
-  font-weight: 400;
-  font-size: 16px;
-  color: $nsu-red;
-  letter-spacing: 1px;
-  padding: 10px 50px 10px 50px;
-  transition: all 0.2s ease-out;
-  text-decoration: none;
-  border-radius: 30px;
-  background-color: white;
+  &>a {
+    @include font-opensans;
+    font-weight: 400;
+    font-size: 16px;
+    color: $nsu-red;
+    letter-spacing: 1px;
+    padding: 10px 25px 10px 25px;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: white;
+    @media (max-width: 842px) {
+      @include font-opensans;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 10px 25px 10px 25px;
+      background-color: transparent;
+      color: white;
+      transition: all 0.2s ease-out;
+      text-decoration: none;
+    }
+  }
+  a:hover,
+  a:active{
+    text-decoration: none;
+    color: $nsu-red !important;
+  }
 }
