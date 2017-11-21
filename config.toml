@@ -170,3 +170,7 @@ paginate = 10
 [params.footer]
     # Use universal or nsu as the footer type
     type = "nsu"
+
+# Configuration for NSU Partials
+[params.events]
+    enable = true
