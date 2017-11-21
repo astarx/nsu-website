@@ -14060,8 +14060,8 @@ address {
   border-left-style: solid;
   border-bottom-style: solid;
   border-width: 1px;
-  border-color: #C22246;
-  background: #C22246;
+  border-color: #CF1138;
+  background: #CF1138;
   /*.navbar>*{
     @include media-breakpoint-down(md) {
       margin: 0 auto;
@@ -14136,7 +14136,7 @@ address {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #C22246;
+  color: #CF1138;
   letter-spacing: 1px;
   padding: 10px 25px 10px 25px;
   transition: all 0.2s ease-out;
@@ -14148,7 +14148,7 @@ address {
 .join-us:hover,
 .join-us:active {
   text-decoration: none;
-  color: #C22246 !important;
+  color: #CF1138 !important;
 }
 
 @media (max-width: 842px) {
@@ -14205,6 +14205,14 @@ address {
 
 #footer .madeby-tagline {
   padding-top: 3rem;
+}
+
+#footer .nsu-red {
+  background-color: #AF2126;
+}
+
+#footer h1 {
+  color: white;
 }
 
 .cf-btn-primary {
@@ -14411,7 +14419,7 @@ section .main-title {
 }
 
 #newsletter .news-box {
-  background: #da001b;
+  background: #CF1138;
   border-radius: 20px;
 }
 
