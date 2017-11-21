@@ -137,3 +137,6 @@ paginate = 10
 [params.footer]
     main_title = "<span>Join</span> the"
     second_title = "AP STATISTICS<br>POSTER COMPETITION"
+
+[params.about]
+    title1 = "mission"
