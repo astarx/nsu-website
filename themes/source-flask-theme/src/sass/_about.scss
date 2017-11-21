@@ -1,0 +1,33 @@
+.about-info {
+  margin-top: 60px;
+}
+
+.yellow-bg {
+  background-color: #fffaee;
+}
+
+.top-spacer {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.text-content {
+  padding-right: 6em;
+}
+
+.about-text {
+  color: $secondary-color;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.flavor-img {
+  object-fit: cover;
+  border-radius: 30px;
+  width: 100%;
+  max-height: 50rem;
+}

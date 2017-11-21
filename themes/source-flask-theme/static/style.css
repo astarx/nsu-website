@@ -13939,10 +13939,9 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-  line-height: 1.1;
-  color: #333333;
+  color: #da001b;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-weight: 800;
 }
 
 h1,
@@ -14685,4 +14684,38 @@ section .main-title {
 #upcoming_events .event-item .event-link a {
   font-weight: bold;
   color: inherit;
+}
+
+.about-info {
+  margin-top: 60px;
+}
+
+.yellow-bg {
+  background-color: #fffaee;
+}
+
+.top-spacer {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.text-content {
+  padding-right: 6em;
+}
+
+.about-text {
+  color: #da001b;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.flavor-img {
+  object-fit: cover;
+  border-radius: 30px;
+  width: 100%;
+  max-height: 50rem;
 }

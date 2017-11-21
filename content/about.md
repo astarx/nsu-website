@@ -1,5 +1,6 @@
 +++
-title = "About Us"
+title = "About"
+id = "about"
 type = "page"
 layout = "about"
 +++
