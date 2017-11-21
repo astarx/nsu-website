@@ -1,3 +1,4 @@
+{{ if eq .Site.Params.footer.type "universal" }}
 <footer id="footer">
     <div class="container">
 
@@ -20,7 +21,7 @@
 
             <div class="blog-entries">
                 {{ range first 3 (where .Site.Pages "Type" "blog") }}
-                <div class="item same-height-row clearfix">
+                <div class="item same-height-row clearfix">type
                     <div class="image same-height-always">
                         <a href="{{ .Permalink }}">
                           {{ if isset .Params "banner" }}
@@ -87,3 +88,10 @@ _________________________________________________________ -->
 <!-- /#copyright -->
 
 <!-- *** COPYRIGHT END *** -->
+{{ end }}
+
+{{ if eq .Site.Params.footer.type "nsu" }}
+<footer id="footer-nsu">
+    nsu
+</footer>
+{{ end }}
