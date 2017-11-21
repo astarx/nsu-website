@@ -26,10 +26,9 @@ h6,
 .h4,
 .h5,
 .h6 {
-  @include font-opensans;
-  font-weight: 900;
-  line-height: 1.1;
-  color: #333333;
+  color: $secondary-color;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-weight: 800;
 }
 h1,
 .h1,

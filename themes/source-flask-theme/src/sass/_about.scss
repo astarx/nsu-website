@@ -1,7 +1,21 @@
-.about_info {
+.about-info {
   margin-top: 60px;
 }
 
 .yellow-bg {
   background-color: #fffaee;
+}
+
+.top-spacer {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.about-text {
+  color: $secondary-color;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
 }
