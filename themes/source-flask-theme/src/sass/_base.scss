@@ -1,17 +1,11 @@
-html {
-  font-size: 38%;
-  @include media-breakpoint-down(sm) {
-    font-size: 50%;
-    margin: 0;
-  }
-  @media (max-width: 842px) {
-    font-size: 50.5%;
-  }
-  @media (min-width: 1037px) {
-    font-size: 57%;
-  }
-}
+$modularscale: (
+  base: 1em,
+  ratio: 1.618
+);
 
+html {
+  font-size: ms(-1);
+}
 
 /* type */
 h1,

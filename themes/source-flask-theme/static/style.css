@@ -13922,26 +13922,7 @@ html {
 }
 
 html {
-  font-size: 38%;
-}
-
-@media (max-width: 767px) {
-  html {
-    font-size: 50%;
-    margin: 0;
-  }
-}
-
-@media (max-width: 842px) {
-  html {
-    font-size: 50.5%;
-  }
-}
-
-@media (min-width: 1037px) {
-  html {
-    font-size: 57%;
-  }
+  font-size: 0.61805em;
 }
 
 /* type */
