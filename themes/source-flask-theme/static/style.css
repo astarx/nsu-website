@@ -14145,6 +14145,12 @@ address {
   background-color: white;
 }
 
+.join-us:hover,
+.join-us:active {
+  text-decoration: none;
+  color: #C22246 !important;
+}
+
 @media (max-width: 842px) {
   .join-us {
     font-family: "Open Sans", sans-serif;
@@ -14157,12 +14163,12 @@ address {
     transition: all 0.2s ease-out;
     text-decoration: none;
   }
-}
 
-.join-us:hover,
-.join-us:active {
-  text-decoration: none;
-  color: #C22246 !important;
+  .join-us:hover,
+  .join-us:active {
+    text-decoration: none;
+    color: white !important;
+  }
 }
 
 #footer {

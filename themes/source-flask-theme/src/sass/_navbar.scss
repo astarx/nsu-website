@@ -88,6 +88,11 @@ $nsu-red: #C22246;
   text-decoration: none;
   border-radius: 30px;
   background-color: white;
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: $nsu-red !important;
+  }
   @media (max-width: 842px) {
     @include font-opensans;
     font-weight: 400;
@@ -98,10 +103,10 @@ $nsu-red: #C22246;
     color: white;
     transition: all 0.2s ease-out;
     text-decoration: none;
-  }
-  &:hover,
-  &:active {
-    text-decoration: none;
-    color: $nsu-red !important;
+    &:hover,
+    &:active {
+      text-decoration: none;
+      color: white !important;
+    }
   }
 }
