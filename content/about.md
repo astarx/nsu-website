@@ -20,6 +20,7 @@ page = "about"
                         </div>
                     </div>
                     <div class="col-md-7">
+                    <img class="flavor-img" src="/img/main-placeholder-1.jpg">
                     </div>
                 </div>
             </div>
