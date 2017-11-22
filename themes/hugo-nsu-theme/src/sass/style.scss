@@ -1,33 +1,35 @@
-//@import "~animate.css";
+// SASS Plugins
+@import "~animate.css";
 @import "~bootstrap/scss/bootstrap.scss";
 @import "~bootstrap/scss/bootstrap-grid.scss";
-@import "~animate.css";
-@import "variable";
 @import '~modularscale-sass/stylesheets/modularscale';
 @import "~ekko-lightbox/dist/ekko-lightbox";
+
+// Project Variables
+@import "variable";
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Signika');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 //Base
-@import "base";
-@import "navbar";
-@import "footer";
-@import "button";
+//@import "base";
+//@import "navbar";
+//@import "footer";
+//@import "button";
 
 // Title card
-@import "section/title_card";
-@import "section/section";
-@import "section/testimonials";
-@import "section/call_to_action";
-@import "section/newsletter";
+//@import "section/title_card";
+//@import "section/section";
+//@import "section/testimonials";
+//@import "section/call_to_action";
+//@import "section/newsletter";
 
 // More About
-@import "section/more_about";
+//@import "section/more_about";
 
 // Platform
-@import "section/platform";
+//@import "section/platform";
 
 //Events
-@import "section/upcoming_events";
+//@import "section/upcoming_events";

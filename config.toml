@@ -174,3 +174,7 @@ paginate = 10
 # Configuration for NSU Partials
 [params.events]
     enable = true
+    title = "Upcoming Events"
+
+[params.nav]
+    type = "nsu"

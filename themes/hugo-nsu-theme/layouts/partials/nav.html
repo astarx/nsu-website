@@ -1,3 +1,4 @@
+{{ if eq .Site.Params.nav.type "universal" }}
 <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
@@ -61,3 +62,27 @@
 </div>
 
 <!-- *** NAVBAR END ***-->
+{{ end }}
+{{ if eq .Site.Params.nav.type "nsu" }}
+<nav class="navbar navbar-dark navbar-expand-md justify-content-between">
+    <a href="/" class="navbar-brand"><h1><span class="vote-for">NSU</span></h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2" style="color:white;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between" id="collapsingNavbar2">
+        <div><!--placeholder to evenly space flexbox items and center links--></div>
+        <ul class="navbar-nav">
+            {{ range .Site.Menus.main }}
+            <li class="nav-item">
+                <a class="links" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+        <ul class="nav navbar-nav flex-row">
+            <li class="nav-link">
+                <a class="join-us" href="#">JOIN US</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+{{ end }}
