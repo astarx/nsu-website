@@ -1,6 +1,8 @@
 #newsletter{
   color: white;
   border-color: white;
+  padding: 7rem 0;
+
   h2.section-title{
     color: white;
   }
@@ -10,24 +12,32 @@
     border-radius: 20px;
   }
 
-  p{
-    font-size: 2rem;
-    padding: .5rem 0;
+  p {
+    margin-bottom: 2rem;
   }
-  padding: 7rem 0;
 
-  input[type=text]{
+  input[type=text] {
     border-radius: 20px;
-    padding: .6rem 3rem;
-    font-size: 1.8rem;
+    padding: .4rem 3rem;
+    font-size: ms(1);
     width: 80%;
     border-style:none;
+    color: #555;
   }
-  .newsletter-container{
+
+  .newsletter-container {
     margin: 0 5rem;
   }
-  .cf-btn-primary{
+
+  .cf-btn-primary {
     width: 70%;
     margin: 2rem 0;
+    border-width: 3px;
+    font-family: Signika, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    font-size: ms(2);
+    padding: 0.8rem 1rem;
   }
 }

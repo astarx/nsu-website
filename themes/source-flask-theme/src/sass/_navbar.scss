@@ -43,7 +43,7 @@ $nav-border-color:#e4e4e4;
   color: white;
   transition: all 0.2s ease-out;
   text-decoration: none;
-  @media (max-width: 842px){
+  @media (max-width: 856px){
     padding: 10px 25px 10px 25px;
   }
 }
@@ -63,7 +63,7 @@ $nav-border-color:#e4e4e4;
     text-decoration: none;
     color: $nsu-red !important;
   }
-  @media (max-width: 842px) {
+  @media (max-width: 856px) {
     @include font-opensans;
     font-weight: 400;
     font-size: 16px;

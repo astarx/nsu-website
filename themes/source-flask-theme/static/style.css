@@ -13958,7 +13958,7 @@ h3 {
 
 p {
   margin: 0 0 10px;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 #header {
@@ -14009,7 +14009,7 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 842px) {
+@media (max-width: 856px) {
   .links {
     padding: 10px 25px 10px 25px;
   }
@@ -14034,7 +14034,7 @@ p {
   color: #CF1138 !important;
 }
 
-@media (max-width: 842px) {
+@media (max-width: 856px) {
   .join-us {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -14121,7 +14121,7 @@ p {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
   font-weight: 800;
-  font-size: 3.5em;
+  font-size: 1.5625em;
   padding: 1rem 0.5rem 1rem 0.5rem;
   color: #da001b;
   border-radius: 30px;
@@ -14263,16 +14263,16 @@ section h1.section-title {
 }
 
 #newsletter p {
-  font-size: 2rem;
-  padding: .5rem 0;
+  margin-bottom: 2rem;
 }
 
 #newsletter input[type=text] {
   border-radius: 20px;
-  padding: .6rem 3rem;
-  font-size: 1.8rem;
+  padding: .4rem 3rem;
+  font-size: 1.25em;
   width: 80%;
   border-style: none;
+  color: #555;
 }
 
 #newsletter .newsletter-container {
@@ -14282,10 +14282,16 @@ section h1.section-title {
 #newsletter .cf-btn-primary {
   width: 70%;
   margin: 2rem 0;
+  border-width: 3px;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  font-size: 1.5625em;
+  padding: 0.8rem 1rem;
 }
 
 .more_about {
-  /*may need to be made more responcive*/
   padding-top: 5em;
   padding-bottom: 5em;
 }
@@ -14318,7 +14324,6 @@ section h1.section-title {
 
 .more_about .sub-title {
   color: #da001b;
-  font-size: 2em;
 }
 
 .more_about .sub-buttons {
@@ -14540,10 +14545,6 @@ section h1.section-title {
 
 .top-spacer {
   margin-top: 5rem;
-}
-
-h1 {
-  font-size: 5rem;
 }
 
 .text-content {
