@@ -1,37 +1,8 @@
 section {
   padding: 0 0.4rem;
-  h1.section-title, h2.section-title {
-    color: $secondary-color;
-    font-family: Signika, Helvetica, Arial, sans-serif;
-    font-weight: 800;
-  }
 
   h1.section-title {
-    padding: 2rem 0;
-    font-size: 6rem;
+    font-size: ms(5);
   }
 
-  h2.section-title {
-    padding: 4rem 0 0 0;
-    font-size: 5rem;
-  }
-
-  .no-gutters {
-    padding: 0 !important;
-  }
-
-  &.background-gray {
-    background: #f3f3f3;
-  }
-  &.background-white{
-    margin-left:2.5%;
-    margin-right: 2.5%;
-  }
-
-  .main-title{
-    margin: 15px 15px 0 15px;
-    font-family: inherit;
-    font-size: 6rem;
-    color: inherit;
-  }
 }

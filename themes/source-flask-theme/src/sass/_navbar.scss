@@ -16,20 +16,11 @@ $nav-border-color:#e4e4e4;
   border-width: 1px;
   border-color: $nsu-red;
   background: $nsu-red;
-  .navbar-brand>h1{
-    font-size: 3rem;
-    letter-spacing: 1rem;
-    font-weight: 100;
-    line-height: 4rem;
+  .navbar-brand>h3{
+    color: white;
     margin: 0;
-    padding-left: 0.5rem;
-    &>span {
-      font-size: 2.5rem;
-      color: white;
-      font-weight: 700;
-      letter-spacing: 0.2rem;
-    }
-     @include media-breakpoint-down(sm) {
+    padding-bottom: 0;
+    @include media-breakpoint-down(sm) {
       text-align: center;
     }
   }
@@ -39,26 +30,6 @@ $nav-border-color:#e4e4e4;
     text-decoration: none;
     color: white;
   }
-
-  /*.navbar>*{
-    @include media-breakpoint-down(md) {
-      margin: 0 auto;
-    }
-  }*/
-
-  .nav-countdown {
-    font-size: 2.7rem;
-    font-weight: 400;
-    color: white;
-    >* {
-      display: inline-block;
-    }
-    @include media-breakpoint-down(sm) {
-      font-size: 2rem;
-    }
-    padding-right: 0.5rem;
-  }
-
 
 }
 
