@@ -1,22 +1,23 @@
 #footer {
   padding-top: 3.5rem;
   padding-bottom: 2rem;
-  .vote-for {
-    line-height: 1.5rem;
-    font-size: 3rem;
-    padding-bottom: 2rem;
-    color: white;
-    &>span {
-      font-weight: bolder;
-    }
+  background-color: $nsu-red-accent;
+
+  .footer-title {
+    margin: 0;
   }
 
-  .fresh-senator {
-    font-size: 3.5rem;
-    letter-spacing: 1rem;
-    font-weight: 100;
-    line-height: 4.5rem;
-    padding-bottom: 2rem;
+  h1 {
+    font-size: ms(2);
+    color: white;
+  }
+  h2 {
+    font-size: ms(1);
+    color: white;
+  }
+  h3 {
+    font-size: ms(1);
+    color: white;
   }
 
   .icon {
@@ -25,17 +26,5 @@
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
-  }
-
-  .madeby-tagline {
-    padding-top: 3rem;
-  }
-
-  .nsu-red {
-    background-color: $nsu-red-accent;
-  }
-
-  h1 {
-    color:white;
   }
 }
