@@ -1,0 +1,57 @@
+#about-us {
+  .about-info {
+    margin-top: 60px;
+  }
+
+  .yellow-bg {
+    background-color: #fffaee;
+  }
+
+  .top-spacer {
+    margin-top: 5rem;
+  }
+
+  .text-content {
+    padding-right: 6em;
+  }
+
+  .about-text {
+    color: $secondary-color;
+    font-family: Signika, Helvetica, Arial, sans-serif;
+    margin-bottom: 5rem;
+    font-size: ms(1);
+  }
+
+  .flavor-img {
+    object-fit: cover;
+    border-radius: 30px;
+    width: 100%;
+    max-height: 50rem;
+  }
+}
+
+#officers {
+  .name {
+    margin-top: 0.5rem;
+    color: $secondary-color;
+    font-size: ms(1);
+    font-weight: 500;
+  }
+  .position {
+    margin-top: 0;
+    color: $secondary-color;
+    font-size: ms(0);
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .contact {
+    color: $secondary-color;
+    font-size: ms(0);
+    margin-bottom: 3rem;
+  }
+  img {
+    margin-top: 1rem;
+    border-radius: 50%;
+    width: 75%;
+  }
+}

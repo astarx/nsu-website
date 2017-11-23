@@ -1,0 +1,20 @@
+<section id="officers">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="section-title">Officers</h1>
+            </div>
+        </div>
+        <div class="row">
+            {{ $baseUrl := .Site.BaseURL }}
+            {{ range $officer := sort .Site.Data.officers "weight" }}
+            <div class="col-md-3 text-md-center">
+                <img src="{{ $baseUrl }}{{ $officer.avatar }}">
+                <div class="name">{{ $officer.name }}</div>
+                <div class="position">{{ $officer.position }}</div>
+                <p class="contact">{{ $officer.email }}<br>{{ $officer.phone }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

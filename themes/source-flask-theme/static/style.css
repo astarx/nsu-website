@@ -13957,7 +13957,7 @@ h3 {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 2rem 0;
   font-size: 1em;
 }
 
@@ -14535,32 +14535,59 @@ section h1.section-title {
   color: inherit;
 }
 
-.about-info {
+#about-us .about-info {
   margin-top: 60px;
 }
 
-.yellow-bg {
+#about-us .yellow-bg {
   background-color: #fffaee;
 }
 
-.top-spacer {
+#about-us .top-spacer {
   margin-top: 5rem;
 }
 
-.text-content {
+#about-us .text-content {
   padding-right: 6em;
 }
 
-.about-text {
+#about-us .about-text {
   color: #da001b;
   font-family: Signika, Helvetica, Arial, sans-serif;
-  font-size: 3rem;
   margin-bottom: 5rem;
+  font-size: 1.25em;
 }
 
-.flavor-img {
+#about-us .flavor-img {
   object-fit: cover;
   border-radius: 30px;
   width: 100%;
   max-height: 50rem;
+}
+
+#officers .name {
+  margin-top: 0.5rem;
+  color: #da001b;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+#officers .position {
+  margin-top: 0;
+  color: #da001b;
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#officers .contact {
+  color: #da001b;
+  font-size: 1em;
+  margin-bottom: 3rem;
+}
+
+#officers img {
+  margin-top: 1rem;
+  border-radius: 50%;
+  width: 75%;
 }
