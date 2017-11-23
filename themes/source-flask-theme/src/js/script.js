@@ -2,6 +2,7 @@ import 'tether'
 import 'jquery'
 import 'bootstrap/dist/js/bootstrap'
 import 'ekko-lightbox/dist/ekko-lightbox'
+import './gallery'
 
 $(document).on('click', '[data-toggle="lightbox"]', function (event) {
   event.preventDefault()

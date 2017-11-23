@@ -13961,6 +13961,10 @@ p {
   font-size: 1em;
 }
 
+.top-container {
+  padding-top: 100px;
+}
+
 #header {
   font-family: "Open Sans", sans-serif;
   transition: all .5s ease 0s;

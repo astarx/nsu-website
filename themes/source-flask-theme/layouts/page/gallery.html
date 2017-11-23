@@ -3,7 +3,7 @@
 
 {{ partial "head.html" . }}
 
-<body>
+<body data-facebook-token="{{.Site.Params.gallery.facebook_token}}">
 
 <div id="all">
 
@@ -14,52 +14,58 @@
 
     </header>
 
+    {{ if isset .Site.Params "gallery" }}
+    {{ if .Site.Params.gallery.enable }}
+
+
     <div class="container top-container">
-        <div class="row text-center text-lg-left">
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                   data-gallery="example-gallery" class="d-block mb-4 h-100">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                   data-gallery="example-gallery" class="d-block mb-4 h-100">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                   data-gallery="example-gallery" class="d-block mb-4 h-100">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                   data-gallery="example-gallery" class="d-block mb-4 h-100">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                   data-gallery="example-gallery" class="d-block mb-4 h-100">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                   data-gallery="example-gallery" class="d-block mb-4 h-100">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                   data-gallery="example-gallery" class="d-block mb-4 h-100">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
+        <div class="row text-center text-lg-left" data-facebook-album="{{.Site.Params.gallery.facebook_album}}">
+            <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+                <!--<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"-->
+                   <!--data-gallery="example-gallery" class="d-block mb-4 h-100">-->
+                    <!--<img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+                <!--<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"-->
+                   <!--data-gallery="example-gallery" class="d-block mb-4 h-100">-->
+                    <!--<img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+                <!--<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"-->
+                   <!--data-gallery="example-gallery" class="d-block mb-4 h-100">-->
+                    <!--<img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+                <!--<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"-->
+                   <!--data-gallery="example-gallery" class="d-block mb-4 h-100">-->
+                    <!--<img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+                <!--<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"-->
+                   <!--data-gallery="example-gallery" class="d-block mb-4 h-100">-->
+                    <!--<img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+                <!--<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"-->
+                   <!--data-gallery="example-gallery" class="d-block mb-4 h-100">-->
+                    <!--<img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+                <!--<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"-->
+                   <!--data-gallery="example-gallery" class="d-block mb-4 h-100">-->
+                    <!--<img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">-->
+                <!--</a>-->
+            <!--</div>-->
         </div>
     </div>
+    {{end}}
+    {{end}}
 
     <!-- /#content -->
 

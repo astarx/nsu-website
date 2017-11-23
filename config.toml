@@ -122,3 +122,10 @@ paginate = 10
 
 [params.about]
     title1 = "mission"
+
+[params.gallery]
+    enable = true
+    facebook_token = "EAAGwZAtH7oNcBAL1HzOZC4oAjSAfXSuDRqmJGpMLDCPXRlHklHVWdJRa8wIKuNacaE3WXVpQfFnpKkOy3lgyKZC8DO6MbG5R5byhFmKDjR48IDhFFEDlI9nGOtezZBsDWZBSmQ1qcSs6drZAwVY5pXiEud6j5F47AZD"
+    facebook_album = "1712389455750408"
+
+
