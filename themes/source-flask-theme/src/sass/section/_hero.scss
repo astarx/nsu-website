@@ -15,13 +15,37 @@
     width: 50%;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6{
+  .title-div{
+    margin-left: 6rem;
+  }
+  .nsu-heading{
+    margin-bottom: 0;
+
+  }
+
+  h1, h2{
     color: white;
+    font-family: Droid Sans;
+    font-size: 42pt;
+
+  }
+  h3{
+    color: white;
+    font-family: Signika;
+    font-size: 38pt;
+    font-weight: bold;
+  }
+  h4{
+    color: white;
+    font-family: Signika;
+    font-size: 28pt;
+    font-weight: bold;
+  }
+  h5, h6{
+    color: white;
+    font-family: Open Sans;
+    font-size: 20pt;
+    font-weight: regular;
   }
 }
 
