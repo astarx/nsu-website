@@ -14173,13 +14173,41 @@ p {
   width: 50%;
 }
 
+#title-card .title-div {
+  margin-left: 6rem;
+}
+
+#title-card .nsu-heading {
+  margin-bottom: 0;
+}
+
 #title-card h1,
-#title-card h2,
-#title-card h3,
-#title-card h4,
+#title-card h2 {
+  color: white;
+  font-family: Droid Sans;
+  font-size: 42pt;
+}
+
+#title-card h3 {
+  color: white;
+  font-family: Signika;
+  font-size: 38pt;
+  font-weight: bold;
+}
+
+#title-card h4 {
+  color: white;
+  font-family: Signika;
+  font-size: 28pt;
+  font-weight: bold;
+}
+
 #title-card h5,
 #title-card h6 {
   color: white;
+  font-family: Open Sans;
+  font-size: 20pt;
+  font-weight: regular;
 }
 
 section {
@@ -14323,7 +14351,7 @@ section h1.section-title {
   object-fit: cover;
   border-radius: 30px;
   width: 100%;
-  max-height: 40rem;
+  max-height: 22rem;
 }
 
 .more_about .sub-title {
