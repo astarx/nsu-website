@@ -14623,3 +14623,74 @@ section h1.section-title {
   border-radius: 50%;
   width: 75%;
 }
+
+.red-bg {
+  background-color: #CF1138;
+}
+
+#contact .about-info {
+  margin-top: 60px;
+}
+
+#contact .yellow-bg {
+  background-color: #000;
+}
+
+#contact .top-spacer {
+  margin-top: 5rem;
+}
+
+#contact .text-content {
+  padding-right: 6em;
+}
+
+#contact .about-text {
+  color: #fff;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#contact .flavor-img {
+  object-fit: cover;
+  border-radius: 30px;
+  width: 100%;
+  max-height: 50rem;
+}
+
+#contact .white {
+  color: white;
+}
+
+#contact #fname {
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 50%;
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+#contact #email {
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 50%;
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+#contact #message {
+  border-radius: 30px;
+  padding: 10px 20px 50px 30px;
+  width: 50%;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+#contact .send-btn {
+  border-width: 3px;
+  font-weight: 800;
+  padding: 10px 70px;
+  width: 40%;
+  font-size: 1.5625em;
+}
