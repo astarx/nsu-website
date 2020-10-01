@@ -62,7 +62,7 @@ paginate = 10
 
 [params.more_about]
     enable = true
-    title = "Why come to us"
+    title = "Why Us"
     member_button = "AS A MEMBER"
     sponsor_button = "AS A SPONSOR"
 
@@ -111,7 +111,7 @@ paginate = 10
 
 [params.call_to_action]
     enable = false
-    main_tag = "Registration is ongoing!"
+    main_tag = "Registration is Open!"
     sub_title = """Have any questions?<br>Get in touch with Dr. Criselda Toto:"""
     phone_number = "(714) 997-6782"
     email = "toto@chapman.edu"
